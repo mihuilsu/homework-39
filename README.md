@@ -3,7 +3,6 @@
 > A modern project demonstrating different types of React components: Stateful, Stateless, and Class components
 
 ![React](https://img.shields.io/badge/React-18.2-blue?style=flat-square&logo=react)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-5.0-purple?style=flat-square&logo=vite)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
