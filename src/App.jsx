@@ -1,7 +1,7 @@
 import StatefulComponent from './components/StatefulComponent';
 import StatelessComponent from './components/StatelessComponent';
 import ClassComponent from './components/ClassComponent';
-import './App.css';
+import './index.css';
 
 /**
  * App Component
