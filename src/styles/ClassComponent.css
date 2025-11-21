@@ -1,0 +1,150 @@
+.class-container {
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+/* Header section */
+.class-header h2 {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.class-header p {
+  opacity: 0.9;
+}
+
+/* Main content area */
+.class-content {
+  background: white;
+  border-radius: 8px;
+  padding: 30px;
+  margin-top: 20px;
+  color: #1e293b;
+}
+
+/* Counter display */
+.counter-display {
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.counter-value {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.counter-label {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* Counter info box */
+.counter-info {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.info-row:last-child {
+  border-bottom: none;
+}
+
+.label {
+  font-weight: 600;
+  color: #64748b;
+}
+
+.value {
+  color: #fa709a;
+  font-weight: 700;
+}
+
+/* Button group */
+.button-group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  flex: 1;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+/* Button variations */
+.btn-increment {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+}
+
+.btn-increment:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(16, 185, 129, 0.3);
+}
+
+.btn-decrement {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: white;
+}
+
+.btn-decrement:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(239, 68, 68, 0.3);
+}
+
+.btn-reset {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+}
+
+.btn-reset:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(59, 130, 246, 0.3);
+}
+
+/* Class info box */
+.class-info {
+  background: #fef3c7;
+  border-left: 4px solid #fa709a;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.class-info h3 {
+  color: #92400e;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.class-info ul {
+  list-style: none;
+  color: #78350f;
+}
+
+.class-info li {
+  padding: 6px 0;
+  font-size: 0.9rem;
+}
